@@ -26,6 +26,20 @@ Data Engineering Tools:
 
 Apache Airflow - Pipeline Orchestration
 
+
+**Project Structure**
+gcp-retail-analytics/
+├── dags/
+│   └── retail_pipeline.py          # Airflow DAG definition
+├── scripts/
+│   ├── data/
+│   │   └── generate_sample_data.py # Synthetic data generation
+│   └── transform_data.py           # Data transformation logic
+├── terraform/
+│   └── main.tf                     # Infrastructure as Code
+├── config/
+│   └── requirements.txt            # Python dependencies
+└── README.md
 PySpark - Data Processing
 
 SQL - Data Transformation & Analysis
